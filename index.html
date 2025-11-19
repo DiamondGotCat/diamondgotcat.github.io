@@ -23,13 +23,30 @@
                 font-family: "Sofia Pro Regular";
                 background-color: #1a1a1a;
                 line-height: 1;
+                margin: 0;
             }
             body {
-                padding: 24px;
+                margin: 0;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
             }
             main {
-                padding: 4px;
-                padding-top: 8px;
+                padding: 24px;
+                padding-top: 4px;
+                padding-bottom: 70px;
+                flex: 1;
+            }
+            footer {
+                background-color: #000;
+                position: fixed;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 24px;
+                display: flex;
+                align-items: center;
+                gap: 16px;
             }
             section {
                 padding-top: 8px;
@@ -69,19 +86,6 @@
         </style>
     </head>
     <body>
-        <header class="flex">
-            <div class="flex-1 flex">
-                <a href="/" class="text-bold">Nercone</a>
-                <p>I am Cat.</p>
-            </div>
-            <div class="flex">
-                <a href="https://github.com/DiamondGotCat/" class="text-bright">GitHub</a>
-                <a href="https://twitter.com/DiamondGotCat/" class="text-bright">Twitter</a>
-                <a href="https://zenn.dev/techcat56/" class="text-bright">Zenn</a>
-                <a href="https://qiita.com/DiamondGotCat/" class="text-bright">Qiita</a>
-                <a href="https://misskey.io/@DiamondGotCat/" class="text-bright">Misskey</a>
-            </div>
-        </header>
         <main>
             <h1>Nercone</h1>
             <p>I am Cat. I'm a student and developer.</p>
@@ -128,5 +132,19 @@
                 </div>
             </section>
         </main>
+        <footer class="flex">
+            <div class="flex-1 flex">
+                <a href="/" class="text-bold">Nercone</a>
+                <p>Thank you for visit. Have a nice day!</p>
+            </div>
+            <div class="flex">
+                <a href="https://github.com/DiamondGotCat/" class="text-bright">GitHub</a>
+                <a href="https://twitter.com/DiamondGotCat/" class="text-bright">Twitter</a>
+                <a href="https://zenn.dev/techcat56/" class="text-bright">Zenn</a>
+                <a href="https://qiita.com/DiamondGotCat/" class="text-bright">Qiita</a>
+                <a href="https://misskey.io/@DiamondGotCat/" class="text-bright">Misskey</a>
+                <p>Copyright (c) 2025 DiamondGotCat</p>
+            </div>
+        </footer>
     </body>
 </html>

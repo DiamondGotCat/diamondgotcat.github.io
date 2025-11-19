@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=M+PLUS+2:wght@100..900&display=swap');
+@font-face {
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Regular'), url('/assets/fonts/Sofia Pro Regular Az.woff') format('woff');
+}
+@font-face {
+    font-family: 'Sofia Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Bold'), url('/assets/fonts/Sofia Pro Bold Az.woff') format('woff');
+}
+html {
+    color: oklch(80% 0 0);
+    background-color: #1a1a1a;
+    line-height: 1;
+    margin: 0;
+    font-family: "M PLUS 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    padding: 24px;
+    padding-top: 4px;
+    padding-bottom: 70px;
+    flex: 1;
+}
+footer {
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+section {
+    padding-top: 8px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2 {
+    color: #ffffff;
+    font-family: "M PLUS 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+h3, h4, h5, h6 {
+    color: #ffffff;
+}
+pre {
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre;
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.flex > * {
+    margin: 0;
+}
+.flex-1 {
+    flex: 1;
+}
+.text-bold {
+    color: #ffffff;
+    font-family: "M PLUS 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.text-bright {
+    color: oklch(90% 0 0);
+}
+.text-sofia {
+    font-family: "Sofia Pro Regular";
+}
+.text-sofia-bold {
+    font-family: "Sofia Pro Bold";
+}
+.narrow-height {
+    line-height: 0;
+}

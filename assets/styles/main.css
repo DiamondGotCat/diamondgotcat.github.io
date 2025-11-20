@@ -102,3 +102,11 @@ pre {
 .narrow-height {
     line-height: 0;
 }
+.hide-on-small-screen {
+    display: none;
+}
+@media (min-width: 980px) {
+    .hide-on-small-screen {
+        display: block;
+    }
+}

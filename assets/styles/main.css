@@ -64,9 +64,11 @@ h3, h4, h5, h6 {
 pre {
     background-color: #000000;
     padding: 10px;
+    padding-left: 20px;
     border-radius: 5px;
     overflow-x: auto;
     white-space: pre;
+    line-height: 32px;
     font-family: "M PLUS 1 Code", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
